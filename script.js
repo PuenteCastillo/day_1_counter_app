@@ -1,9 +1,11 @@
+//? 1. grab the elements we need
 const count = document.querySelector(".count");
 // const add = document.querySelector(".add");
 // const resetCount = document.querySelector(".reset");
 // const sub = document.querySelector(".subtract");
 const buttons = document.querySelector(".buttons");
 
+//? 2. add event listeners to the buttons
 //? long way
 // add.addEventListener("click", () => {
 //   count.innerHTML++;
